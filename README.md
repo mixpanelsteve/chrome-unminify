@@ -7,6 +7,6 @@ to install:
 
 1. Download the code
 2. Open chrome preferences, click "Extensions" in the menu, then "Load unpacked extension..."
-    note: this requires "Developer mode"
+    (note: this requires "Developer mode")
 3. Select the repo folder
 4. Check "Allow in incognito"
