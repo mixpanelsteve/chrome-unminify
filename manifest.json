@@ -1,0 +1,18 @@
+{
+    "manifest_version": 2,
+
+    "name": "Mixpanel un-min",
+    "description": "Replace the unminified library with the plain text version to help with debugging",
+    "version": "1",
+
+    "background": {
+        "scripts": ["background.js"],
+        "persistent": true
+    },
+
+    "permissions": [
+        "webRequest",
+        "webRequestBlocking",
+        "*://cdn.mxpnl.com/libs/mixpanel-2.2.min.js"
+    ]
+}
